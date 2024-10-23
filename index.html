@@ -1,0 +1,95 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+                <title>Prises</title>
+                <script src="javaScript/lib/xlsx.full.min.js"></script>
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+            </head>
+        <body >
+       <div class="wrepper">  
+
+        <header class='header'>
+            <section class='header__container'>
+                <div class="groop_btn">
+                    <input type="file" id="file" class='btn' >
+                    <button id="btn" class='btn' onclick='readFile.elem()' title='Вывести'><i class="fa fa-upload" aria-hidden="true"></i></button>
+                    <button class="print-btn btn" title='Печать' onclick='Printer.printDoc()' title='Печать'><i class="fa fa-print" aria-hidden="true"></i></button>
+                    
+
+                    
+
+
+
+
+
+                </div>
+                <div class="groop_btn">
+                    <button id="btn" class='btn'  onclick='calcButtonTiming.render()'  title='Сроки'><i class="fa fa-clock-o" aria-hidden="true"></i></i></button>
+                    <ul class="theme-btn" onclick='switchTheme.switch()'>
+                        <li class="theme-item theme-dark"><i class="fa fa-moon-o" aria-hidden="true"></i></li>
+                        <li class="theme-item theme-ligth active"><i class="fa fa-sun-o" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <main class='main'>
+            <div class='resultRead print'></div>
+        </main> 
+        <footer class="footer">
+            <section class='footer__container'>
+                <div class="wrepperTested footer__elem">
+                    <span class="testedTitle">Tested: </span>
+                    <ul class="listTested">
+                        <li class="tested__item"><i class="fa fa-chrome" aria-hidden="true"></i></li>
+                        <li class="tested__item"><i class="fa fa-firefox" aria-hidden="true"></i></li>
+                        <li class="tested__item"><i class="fa fa-edge" aria-hidden="true"></i></li>
+
+
+
+                        
+                    </ul>
+                </div>
+
+
+
+                <p class="footer__elem">© Kovalёv ES. 2019 - <sapn class="yearToday"></sapn></p>
+                <p class="footer__elem">v 1.1.10</p>
+            </section>
+        </footer>
+
+            
+    </div>  
+
+
+
+
+
+<input type="text" id="file" class='one'>
+<input type="text" id="file" class='tow'>
+
+<select class="selectOp">
+    <option value="1">Wighy</option>
+    <option value="2">Red</option>
+    <option value="3">Tomato</option>
+<select>
+
+
+    <button class="btn"></button>
+
+
+
+    
+    <script src="settingsBarcod.js"></script>
+    <script src="javaScript/JsBarcode.all.min.js"></script>
+    <script src="javaScript/script.js"></script>
+    <script src="javaScript/timing.js"></script>
+</body>
+</html>
+
+
+
+
+
+
